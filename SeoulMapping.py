@@ -168,4 +168,4 @@ def search(dir, stops, end, Line ,time=0):
         trans = 0 if Line == i[1] else 5
         search(list(dir), i[0], end, i[1], i[2]+trans+time)
 
-search([], '부평', '구로', line['수인선']) #예시
+search([], '부평', '구로', line['수인선']) 
