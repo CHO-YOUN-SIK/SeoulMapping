@@ -169,7 +169,7 @@ line = {
 }
 
 def search(dir, stops, end, Line ,sub=0):
-    if station[stops][0] > sub:
+    if station[stops][0] >= sub:
         station[stops][0] = sub
         dir.append(stops)
     else:
