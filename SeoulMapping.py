@@ -176,7 +176,7 @@ def search(dir, stops, end, Line ,sub=0):
         return '취소'
 
     if stops == end:
-        print(sub)
+        print(sub," 정거장")
         print(dir)
         return '도착'
 
